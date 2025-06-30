@@ -9,7 +9,7 @@
 
 ---
 
-![J.P. Morgan](https://forage-uploads-prod.s3.amazonaws.com/organization-institution-logos/JP%20Morgan%20Chase%20%26%20Co.%20Logo.png)
+![J.P. Morgan](https://upload.wikimedia.org/wikipedia/commons/5/5a/JPMorgan_Chase_Logo_2008.svg)
 
 ---
 
