@@ -9,7 +9,7 @@
 
 ---
 
-![J.P. Morgan](https://upload.wikimedia.org/wikipedia/commons/5/5a/JPMorgan_Chase_Logo_2008.svg)
+![J.P. Morgan](jpmorgan-logo.png)
 
 ---
 
