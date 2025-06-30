@@ -1,12 +1,15 @@
-# Midas Core &nbsp; <img src="https://img.shields.io/badge/Forage-J.P.%20Morgan%20Software%20Engineering-blue" alt="Forage"/>  <img src="https://img.shields.io/badge/Java-17-blue.svg" alt="Java 17"/>  <img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg" alt="Build Passing"/>  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"/>
+# Midas Core
 
-> **J.P. Morgan Software Engineering Job Simulation — Certificate of Completion**
+![Forage](https://img.shields.io/badge/Forage-JPMorgan-blue)
+![Java 17](https://img.shields.io/badge/Java-17-blue.svg)
+![Build Passing](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+**J.P. Morgan Software Engineering Job Simulation — Certificate of Completion**
 
 ---
 
-<p align="center">
-  <img src="https://forage-uploads-prod.s3.amazonaws.com/organization-institution-logos/JP%20Morgan%20Chase%20%26%20Co.%20Logo.png" alt="J.P. Morgan" width="200"/>
-</p>
+![J.P. Morgan](https://forage-uploads-prod.s3.amazonaws.com/organization-institution-logos/JP%20Morgan%20Chase%20%26%20Co.%20Logo.png)
 
 ---
 
@@ -123,11 +126,9 @@ To run a specific test file (e.g., `TaskFiveTests`):
 
 ## 📜 Certification
 
-> **Software Engineering Job Simulation Certificate of Completion**<br/>
+> **Software Engineering Job Simulation Certificate of Completion**
 > Awarded by J.P. Morgan via Forage for successfully completing all simulation tasks.
 
 ---
 
-<p align="center">
-  <em>Developed as part of the J.P. Morgan Software Engineering Job Simulation on Forage.</em>
-</p> 
+_Developed as part of the J.P. Morgan Software Engineering Job Simulation on Forage._ 
