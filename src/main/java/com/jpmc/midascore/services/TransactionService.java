@@ -18,10 +18,12 @@ public class TransactionService {
 
     private final UserRepository userRepository;
     private final TransactionRecordRepository transactionRecordRepository;
+    private final IncentiveService incentiveService;
 
-    public TransactionService(UserRepository userRepository, TransactionRecordRepository transactionRecordRepository) {
+    public TransactionService(UserRepository userRepository, TransactionRecordRepository transactionRecordRepository, IncentiveService incentiveService) {
         this.userRepository = userRepository;
         this.transactionRecordRepository = transactionRecordRepository;
+        this.incentiveService = incentiveService;
     }
 
     @Transactional
@@ -41,14 +43,16 @@ public class TransactionService {
             LOG.warn("Invalid transaction: insufficient funds. {}", transaction);
             return;
         }
+        
+        float incentive = incentiveService.getIncentive(transaction);
 
         sender.setBalance(sender.getBalance() - transaction.getAmount());
-        recipient.setBalance(recipient.getBalance() + transaction.getAmount());
+        recipient.setBalance(recipient.getBalance() + transaction.getAmount() + incentive);
 
         userRepository.save(sender);
         userRepository.save(recipient);
 
-        TransactionRecord transactionRecord = new TransactionRecord(sender, recipient, transaction.getAmount());
+        TransactionRecord transactionRecord = new TransactionRecord(sender, recipient, transaction.getAmount(), incentive);
         transactionRecordRepository.save(transactionRecord);
 
         LOG.info("Transaction processed successfully: {}", transaction);
