@@ -1,14 +1,10 @@
 # Midas Core
 
-![Forage](https://img.shields.io/badge/Forage-JPMorgan-blue) ![Java 17](https://img.shields.io/badge/Java-17-blue.svg) ![Build Passing](https://img.shields.io/badge/Build-Passing-brightgreen.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Forage](https://img.shields.io/badge/Forage-JPMorgan-blue) ![Java 17](https://img.shields.io/badge/Java-17-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 **J.P. Morgan Software Engineering Job Simulation — Certificate of Completion**
 
 ---
-
-<p align="center">
-  <img src="https://www.stickpng.com/img/download/5a75938264538c292dec1bbd" alt="J.P. Morgan" height="60">
-</p>
 
 ---
 
