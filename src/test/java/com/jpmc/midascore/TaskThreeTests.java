@@ -37,9 +37,6 @@ public class TaskThreeTests {
         }
         Thread.sleep(2000);
 
-        UserRecord waldorf = userRepository.findByName("waldorf");
-        logger.info("Waldorf's balance is: {}", waldorf.getBalance());
-
         logger.info("----------------------------------------------------------");
         logger.info("----------------------------------------------------------");
         logger.info("----------------------------------------------------------");
