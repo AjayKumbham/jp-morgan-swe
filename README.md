@@ -2,7 +2,7 @@
 
 ![Forage](https://img.shields.io/badge/Forage-JPMorgan-blue) ![Java 17](https://img.shields.io/badge/Java-17-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-**J.P. Morgan Software Engineering Job Simulation — Certificate of Completion**
+**J.P. Morgan Software Engineering Job Simulation**
 
 ---
 
